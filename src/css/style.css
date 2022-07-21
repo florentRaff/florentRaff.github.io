@@ -1,15 +1,25 @@
 
 @font-face {
-  font-family: myFirstFont;
-  src: url(sansation_light.woff);
+	font-family: SansationBold;
+    src: url('../fonts/SansationBold/SansationBold.eot');    
+    src: url('../fonts/SansationBold/SansationBold.woff') format('woff'), url('../fonts/SansationBold/SansationBold.ttf') format('truetype');
+
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_425">Text with this font applied</p> */
+.fontsforweb_fontid_425 {
+	font-family: 'SansationBold' !important;
 }
 
-@font-face {
-  font-family: myFirstFont;
-  src: url(sansation_bold.woff);
-  font-weight: bold;
-}
+
 
 div {
-  font-family: myFirstFont;
+  font-family: SansationBold;
+}
+
+p.a {
+    font: 15px Arial, sans-serif;
+  }
+  
+p.b {
+    font: italic small-caps bold 12px/30px Georgia, serif;
 }
